@@ -4,7 +4,6 @@
 }
 
 header{
-    background-color: red;
     padding-top: 10px;
     padding-left: 20px;
     padding-bottom: 10px;
@@ -14,4 +13,53 @@ header > h1{
     display: inline-block;
     vertical-align: top;
     line-height: 50px;
+}
+
+main{
+    background-color: rgba(245,247,248,255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+main > div{
+    width: 70%;
+    margin: auto;
+}
+
+#btnContainer{
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 50px;
+}
+
+div#btnContainer > div{
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#btn1{
+    color: white;
+    background-color: rgba(58,168,240,255);
+    border: none;
+}
+
+#btn2{
+    color: rgba(217,221,224,255);
+    background-color: white;
+    border: 1px solid rgba(217,221,224,255);
+}
+
+.btn{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#ulContainer{
+    height: 1000px;
+    background-color: white;
+    margin-top: 3px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
