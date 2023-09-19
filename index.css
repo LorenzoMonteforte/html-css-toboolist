@@ -10,10 +10,13 @@ header{
     padding-bottom: 10px;
 }
 
+img{
+    vertical-align: middle;
+}
+
 header > h1{
     display: inline-block;
-    vertical-align: top;
-    line-height: 50px;
+    vertical-align: middle;
 }
 
 main{
@@ -99,6 +102,11 @@ ul{
     border: 1px solid rgba(93,190,166,255);
 }
 
+.entityRosso{
+    color: rgba(231,59,51,255);
+    border: 1px solid rgba(231,59,51,255);
+}
+
 h3{
     display: inline;
     vertical-align: middle;
@@ -111,21 +119,16 @@ h3{
     vertical-align: middle;
 }
 
-.azzurro{
-    background-color: rgba(58,168,240,255);
-}
-
 .liPrincipali{
     margin-top: 20px;
 }
 
-.viola{
-    background-color: rgba(161,122,229,255);
+.azzurro{
+    background-color: rgba(58,168,240,255);
 }
 
-.entityRosso{
-    color: rgba(231,59,51,255);
-    border: 1px solid rgba(231,59,51,255);
+.viola{
+    background-color: rgba(161,122,229,255);
 }
 
 .verde{
