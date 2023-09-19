@@ -58,18 +58,16 @@ div#btnContainer > div{
 }
 
 #ulContainer{
-    height: 1000px;
     background-color: white;
     margin-top: 3px;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding-top: 50px;
-    padding-left: 50px;
+    padding: 50px;
 }
 
 div#ulContainer > div{
     height: 100%;
-    background-color: red;
+    
 }
 
 #listaPrincipale{
@@ -86,16 +84,19 @@ ul{
 }
 
 .liSecondari{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .entity{
     font-size: 10px;
-    color: rgba(93,190,166,255);
-    border: 1px solid rgba(93,190,166,255);
     border-radius: 50%;
     padding: 3px;
     vertical-align: middle;
+}
+
+.entityVerde{
+    color: rgba(93,190,166,255);
+    border: 1px solid rgba(93,190,166,255);
 }
 
 h3{
@@ -105,12 +106,40 @@ h3{
 
 .rettangolino{
     color: white;
-    background-color: rgba(58,168,240,255);
     border-radius: 10px;
     padding: 5px;
     vertical-align: middle;
 }
 
+.azzurro{
+    background-color: rgba(58,168,240,255);
+}
+
 .liPrincipali{
     margin-top: 20px;
+}
+
+.viola{
+    background-color: rgba(161,122,229,255);
+}
+
+.entityRosso{
+    color: rgba(231,59,51,255);
+    border: 1px solid rgba(231,59,51,255);
+}
+
+.verde{
+    background-color: rgba(93,190,166,255);
+}
+
+.arancio{
+    background-color: rgba(242,156,45,255);
+}
+
+.lilla{
+    background-color: rgba(214,94,158,255);
+}
+
+.verdeChiaro{
+    background-color: rgba(173,199,31,255);
 }
